@@ -1,0 +1,203 @@
+#layout {
+	background-image    : url(head.jpg);
+	padding             : 62px;
+  margin-bottom: 5;
+}
+#judul h2{
+	text-align          : center;
+	font-family         : century gothic;
+ 	padding             : 5px;
+  color               : white;
+  background-color    : #CD5C5C;
+   margin-bottom: 5;
+   font-size: 40px;
+}
+body {
+	font-family         : century gothic;
+	background-image: url(putihbg.jpg); 
+
+}
+#menu {
+  background-color    : #CD5C5C;
+  position            : relative;
+  width			         	: 100%;
+	height			      	: 50px;
+	
+}
+#menu ul {
+  display             : inline;
+  list-style-type     : none;
+  margin-right        : 20px;
+}
+
+#menu ul li {
+	float               : right;
+}
+#menu ul li a {
+	float 			      	: right;
+	color 			      	: #fff;
+	padding 	      		: 12px 40px;
+	text-decoration    	: none;
+	border-left 	    	: 1px solid #d3d3d3;
+	border-right 	    	: 1px solid #d3d3d3;
+	text-shadow 		    : 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu a {
+  font-size           : 20px;
+  font-weight         : 300;
+  text-decoration     : none;
+  color               : white;
+}
+
+#menu ul li a:hover {
+	color 		      		: white;
+	background 	    		: #F08080;
+}
+/* Style the side navigation */
+#daftarartikel {
+  height              : 100%;
+  width               : 200px;
+  background-color    : #CD5C5C;
+  top                 : 115;
+  left                : 8;
+  overflow-x          : hidden;
+}
+
+#daftarartikel ul {
+	float               : right;
+}
+#daftarartikel ul a {
+	float 			      	: right;
+	color 		      		: #fff;
+	padding 	      		: 12px  40px;
+	text-decoration   	: none;
+	text-shadow 	    	: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* Change color on hover */
+#daftarartikel a:hover {
+  color               : black;
+}
+
+/* Style the content */
+.content {
+  margin-left         : 100px;
+  padding-left        : 20px;
+ 	padding             : 12px;
+}
+
+#isi {
+	text-align          : center;
+	position            : relative;
+	top                 : -580;
+	right               : -230;
+	height              : 300px;
+  width               : 70%;
+  font-size: 20px;
+}
+
+.isiposting h3 {
+  font-size: 35px;
+  font-family: Cambria;
+  font-style: bold;
+
+}
+
+.isiposting h4{
+   font-size: 30px;
+  font-family: Cambria;
+  font-style: bold;
+}
+
+
+#kami a{
+  text-decoration    : none;
+}
+
+#kami {
+ display              : flex;
+ justify-content      : space-around;
+ flex-wrap            : wrap;
+ margin-left          : 200px;
+ margin-right         : 50px;
+ margin-top           : -580px;
+
+}
+
+.biodata{
+ background-color     : rgba(255,255,255, .4);
+ padding              : 15px;
+ margin-top           : 50px;
+ width                : 25%;
+ display              : flex;
+ flex-direction       : column;
+ color                : #808080;
+ transition           : .5s;
+
+}
+
+.biodata h2{
+	font-family         : century gothic;
+  text-align          : center;
+  flex                : 2;
+  color               : black;
+}
+
+.biodata img{
+  flex                : 1;
+}
+
+.fotobiodata{
+  width               : 100%;
+  max-height          : 300px;
+  object-position     : center;
+}
+
+
+.biodata:hover{
+  box-shadow          : 0 4px 6px 0 #696969;
+  color               : #363636;
+  background-color    : #CD5C5C;
+  transform           : scale(.9);
+}
+
+.button1 {
+  transition-duration: 0.5s
+  font-size: 20px;
+    color: black ;
+     border: 2px solid ;
+     padding: 12px 28px;
+     width: 100px;
+     float: left;
+}
+
+.button1:hover {
+  background-color: #CD5C5C;
+
+}
+#button2 {
+  transition-duration: 0.5s
+  font-size: 20px;
+    color: black ;
+     border: 2px solid ;
+     padding: 12px 28px;
+     width: 100px;
+     float: right;
+}
+
+#button2:hover {
+  background-color: #CD5C5C;
+
+
+}
+
+#footer {
+  clear: both;
+  position: relative;
+  padding             : 15px;
+  color               : white;
+  background-color    : #CD5C5C;
+  text-align          : center;
+display: block;
+margin-top: auto;
+}
